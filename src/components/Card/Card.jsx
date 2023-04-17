@@ -1,4 +1,5 @@
 import perfumeImage from "../../assets/images/image-product-desktop.jpg";
+import perfumeImageMobile from "../../assets/images/image-product-mobile.jpg";
 import cartIcon from "../../assets/images/icon-cart.svg";
 import "./Card.css";
 
@@ -6,7 +7,16 @@ function Card() {
   return (
     <div className="card">
       <div className="image-div">
-        <img src={perfumeImage} alt="Imagem de perfume" />
+        <img
+          className="img-desktop"
+          src={perfumeImage}
+          alt="Imagem de perfume"
+        />
+        <img
+          className="img-mobile"
+          src={perfumeImageMobile}
+          alt="Imagem de perfume"
+        />
       </div>
       <div className="description-div">
         <span className="normal-text" id="title">
