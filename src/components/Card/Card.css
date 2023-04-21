@@ -119,7 +119,7 @@ button:hover {
         font-size: 30px;
     }
 
-    .description-div .price {
+    .price {
         display: flex;
         align-items: center;
         gap: 12px;
